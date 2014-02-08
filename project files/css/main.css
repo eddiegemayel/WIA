@@ -1,0 +1,22 @@
+/*
+	Colors
+	Lighter Green : #2F7F21
+	Darker Green : #28631C;
+	Light Tan : #FEE05D;
+	Dark Tan : #B2992F;
+	Pep Red : #993737;
+*/
+
+#header{
+	/*border: 1px solid black;*/
+	background-color: #B2992F;
+}
+
+nav, ul, li{
+	display:inline;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
