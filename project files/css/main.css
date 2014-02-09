@@ -8,6 +8,9 @@
 	Pep Red : #993737;
 */
 
+/*
+	ID's ----------------------------------------------------------------------------
+*/
 #header{
 	border: 1px solid #B2992F;
 	border-top: 0px;
@@ -25,18 +28,42 @@
 }
 
 #CTA{
-	margin-top: 15px;
+	margin-top: 10px;
+	border: 3px ridge #B2992F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-image: url(../images/CTA_pizza.jpg);
+	width: 1021px;
+	height: 466px;
+}
+
+#orderNow{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*
+	Classes's -----------------------------------------------------------------------
+*/
+
+.red{
+	color: #993737;
+}
+
+.ctaHeader{
+	margin-top: 10px;
 	border: 1px solid #B2992F;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	background-color: #B2992F;
+	width: 755px ;
 }
 
-#orderNow{
-	float: right;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
+/*
+	Natural Selectors ------------------------------------------------------------------
+*/
 
 nav, ul, li{
 	display:inline;
@@ -58,8 +85,4 @@ a{
 
 ul{
 	list-style-type: none;
-}
-
-span{
-	color: #993737;
 }
