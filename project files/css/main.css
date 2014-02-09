@@ -29,18 +29,21 @@
 
 #CTA{
 	margin-top: 10px;
-	border: 3px ridge #B2992F;
+	border: 4px ridge #B2992F;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-image: url(../images/CTA_pizza.jpg);
-	width: 1021px;
+	width: 1000px;
 	height: 466px;
 }
 
 #orderNow{
 	margin-top: 5px;
 	margin-bottom: 5px;
+	position: absolute;
+	right:    5px;
+	bottom:   5px;
 }
 
 /*
@@ -58,6 +61,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #B2992F;
+	color: white;
 	width: 755px ;
 }
 
