@@ -11,13 +11,13 @@
 		<script src="js/vendor/modernizr.js"></script>
 	</head>
 	<body>
-		<!-- Header -->
+		<!-- Header With Navigation -->
 		<div id="header" class="row">
 			<div class="large-4 columns">
-				<canvas id="Canvas1" width="138" height="73">Your browser does not support canvas.</canvas>
-				<img id="img1" src="images/logo.png" width="138" height="73" alt="Express Pizza" style="display:none;">
+				<canvas id="Canvas1" width="189" height="100">Your browser does not support canvas.</canvas>
+				<img id="img1" src="images/logo.png" width="189" height="100" alt="Express Pizza" style="display:none;">
 			</div>
-			<div class="large-8 columns">
+			<div id="navContainer" class="large-8 columns">
 				<nav>
 					<ul>
 						<li><a href="#">Home</a></li>
@@ -29,19 +29,14 @@
 			</div>
 		</div>
 
-
 		<div class="row">
 			<!-- CTA -->
-			<div class="large-6 columns">
-				<a href="#" class="medium secondary button">Order Now!</a>
-			</div>
-			<!-- Secondary CTA -->
-			<div class="large-6 columns">
-
+			<div id="CTA" class="large-12 columns">
+				<h2>$<span>5</span> Pizza Delievered in <span>5</span> Minutes!</h2>
+				<img src="images/CTA_pizza.gif" width="1021" height="593"/>
+				<a href="#" id="orderNow" class="medium success button">Order Now!</a>
 			</div>
 		</div>
-		
-		
 		
 		<script src= "js/main.js"></script>
 		<script src="js/vendor/jquery.js"></script>

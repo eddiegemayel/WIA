@@ -2250,7 +2250,7 @@ ul.pagination {
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #ffe05d; }
+        background: #fee05d; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -2503,7 +2503,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #2f7f21;
+  color: #161212;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
