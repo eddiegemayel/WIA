@@ -36,6 +36,8 @@
 	background-image: url(../images/CTA_pizza.jpg);
 	width: 1000px;
 	height: 466px;
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
 }
 
 #orderNow{
@@ -61,7 +63,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #B2992F;
-	color: white;
+	/*color: white;*/
 	width: 755px ;
 }
 
