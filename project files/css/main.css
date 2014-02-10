@@ -34,13 +34,28 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-image: url(../images/CTA_pizza.jpg);
-	width: 1000px;
 	height: 466px;
-	/*background-size: 100%;*/
-	background-repeat: no-repeat;
+}
+
+#menuCTA{
+	margin-top: 10px;
+	border: 4px ridge #FEE05D;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #993737;
+	height:350px;
 }
 
 #orderNow{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: absolute;
+	right:    5px;
+	bottom:   5px;
+}
+
+#menuNow{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	position: absolute;
