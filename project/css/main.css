@@ -147,7 +147,7 @@ body{
 		height: 466px;
 	}
 
-	#menuCTA{
+	/*#menuCTA{
 		box-shadow: none;
 		border: 2px solid #B2992F;
 	}
@@ -155,5 +155,5 @@ body{
 	#about{
 		box-shadow: none;
 		border: none;
-	}
+	}*/
 }
