@@ -131,11 +131,17 @@ ul{
 	Media Queries ------------------------------------------------------------------
 */
 @media only screen and (max-device-width: 500px){
+	#CTA{
+		background-image: url(../images/CTA_pizza_small.jpg);
+	}
+
 	#menuCTA{
 		box-shadow: none;
+		border: 2px solid #B2992F;
 	}
 
 	#about{
 		box-shadow: none;
+		border: 2px solid #B2992F;
 	}
 }
