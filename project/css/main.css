@@ -130,8 +130,12 @@ ul{
 /*
 	Media Queries ------------------------------------------------------------------
 */
-/*@media only screen and (max-device-width: 500px){
-	.ctaHeader{
-		width:300px;
+@media only screen and (max-device-width: 500px){
+	#menuCTA{
+		box-shadow: none;
 	}
-}*/
+
+	#about{
+		box-shadow: none;
+	}
+}
