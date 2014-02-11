@@ -17,7 +17,7 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 5px;
-	
+	box-shadow: 3px 3px 3px #545252;
 }
 
 #Canvas1{
@@ -44,25 +44,25 @@
 	margin-bottom: 10px;
 	/*background-color: #FEE05D;*/
 	height:350px;
-	border-left: 1px solid #B2992F;;
-	border-top: 1px solid #B2992F;;
+	border-left: 1px solid #B2992F;
+	border-top: 1px solid #B2992F;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	box-shadow: 5px 5px 5px #545252;
+	box-shadow: 3px 3px 3px #545252;
 }
 
 #about{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-left: 1px solid #B2992F;;
-	border-top: 1px solid #B2992F;;
+	border-left: 1px solid #B2992F;
+	border-top: 1px solid #B2992F;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	/*background-color: #FEE05D;*/
 	height: 350px;
-	box-shadow: 5px 5px 5px #545252;
+	box-shadow: 3px 3px 3px #545252;
 }
 
 #orderNow{
@@ -104,6 +104,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #B2992F;
+	box-shadow: 3px 3px 3px black;
 }
 
 /*
@@ -149,9 +150,11 @@ body{
 
 	#menuCTA{
 		box-shadow: none;
+		border: 1px solid #B2992F;
 	}
 
 	#about{
 		box-shadow: none;
+		border: 1px solid #B2992F;
 	}
 }
