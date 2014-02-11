@@ -99,8 +99,6 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #B2992F;
-	/*color: white;*/
-	width: 755px ;
 }
 
 /*
@@ -127,4 +125,13 @@ a{
 
 ul{
 	list-style-type: none;
+}
+
+/*
+	Media Queries ------------------------------------------------------------------
+*/
+@media only screen and (max-device-width: 500px){
+	.ctaHeader{
+		width:200px;
+	}
 }
