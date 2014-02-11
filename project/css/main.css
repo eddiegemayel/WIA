@@ -133,6 +133,8 @@ ul{
 @media only screen and (max-device-width: 500px){
 	#CTA{
 		background-image: url(../images/CTA_pizza_small.jpg);
+		background-repeat: no-repeat;
+		height: 172px;
 	}
 
 	#menuCTA{
