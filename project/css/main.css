@@ -145,5 +145,6 @@ ul{
 
 	#about{
 		box-shadow: none;
+		border: none;
 	}
 }
