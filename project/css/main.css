@@ -55,7 +55,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	background-color: #FEE05D;
+	border: 2px solid #B2992F;
+	/*background-color: #FEE05D;*/
 	height: 350px;
 	box-shadow: 5px 5px 5px #545252;
 }
@@ -108,7 +109,7 @@
 nav, ul, li{
 	display:inline;
 	text-align: center;
-	padding-right: 30px;
+	padding-right: 25px;
 	font-family: "Helvetica Neue";
 	font-size: 18pt;
 }
@@ -134,7 +135,7 @@ ul{
 	#CTA{
 		background-image: url(../images/CTA_pizza_small.jpg);
 		background-repeat: no-repeat;
-		height: 172px;
+		height: 466px;
 	}
 
 	#menuCTA{
@@ -144,6 +145,5 @@ ul{
 
 	#about{
 		box-shadow: none;
-		border: 2px solid #B2992F;
 	}
 }
