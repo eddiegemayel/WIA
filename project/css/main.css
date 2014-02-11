@@ -17,8 +17,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	box-shadow: 2px 2px 2px #545252;
 }
+
 #Canvas1{
 	padding-top: 5px;
 }
@@ -41,23 +41,23 @@
 #menuCTA{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: 2px solid black;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #FEE05D;
 	height:350px;
+	box-shadow: 5px 5px 5px #545252;
 }
 
 #about{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: 2px solid black;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #FEE05D;
 	height: 350px;
+	box-shadow: 5px 5px 5px #545252;
 }
 
 #orderNow{
