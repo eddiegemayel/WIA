@@ -147,13 +147,11 @@ body{
 		height: 466px;
 	}
 
-	/*#menuCTA{
+	#menuCTA{
 		box-shadow: none;
-		border: 2px solid #B2992F;
 	}
 
 	#about{
 		box-shadow: none;
-		border: none;
-	}*/
+	}
 }
