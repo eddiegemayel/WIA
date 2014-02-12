@@ -17,6 +17,7 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 5px;
+	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
 }
 
@@ -166,6 +167,11 @@ body{
 		box-shadow: none;
 		border: 1px solid #B2992F;
 	}
+
+	#header{
+		box-shadow: none;
+	}
+
 	.imageContainer{
 	padding-left: 70px;
 	}
