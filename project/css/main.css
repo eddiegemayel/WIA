@@ -45,6 +45,7 @@
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
 }
 
@@ -57,6 +58,7 @@
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	height: 350px;
+	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
 }
 
