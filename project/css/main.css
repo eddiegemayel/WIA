@@ -107,6 +107,13 @@
 	box-shadow: 3px 3px 3px black;
 }
 
+.smallIcon{
+	border:3px solid #B2992F;
+}
+
+.smallIcon:hover{
+	border:3px solid #993737;
+}
 /*
 	Natural Selectors ------------------------------------------------------------------
 */
