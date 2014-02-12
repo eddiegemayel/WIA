@@ -31,10 +31,6 @@
 
 #CTA{
 	margin-top: 10px;
-	/*border: 4px ridge #B2992F;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;*/
 	background-image: url(../images/CTA_pizza.jpg);
 	height: 466px;
 }
@@ -42,7 +38,6 @@
 #menuCTA{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	/*background-color: #FEE05D;*/
 	height:350px;
 	border-left: 1px solid #B2992F;
 	border-top: 1px solid #B2992F;
@@ -60,7 +55,6 @@
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	/*background-color: #FEE05D;*/
 	height: 350px;
 	box-shadow: 3px 3px 3px #545252;
 }
@@ -173,6 +167,6 @@ body{
 		border: 1px solid #B2992F;
 	}
 	.imageContainer{
-	padding-left: 60px;
+	padding-left: 70px;
 	}
 }
