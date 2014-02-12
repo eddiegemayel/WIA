@@ -107,8 +107,16 @@
 	box-shadow: 3px 3px 3px black;
 }
 
+.imageContainer{
+	vertical-align: middle;
+	padding-left: 100px;
+}
+
 .smallIcon{
 	border:3px solid #B2992F;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .smallIcon:hover{
