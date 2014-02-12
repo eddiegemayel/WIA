@@ -172,4 +172,7 @@ body{
 		box-shadow: none;
 		border: 1px solid #B2992F;
 	}
+	.imageContainer{
+	padding-left: 60px;
+	}
 }
