@@ -1,6 +1,8 @@
 (function($){
 	$(function() {
-   		 $('.jcarousel').jcarousel();
+   		 $('.jcarousel').jcarousel({
+   		 	wrap: "both"
+   		 });
 
         $('.jcarousel-control-prev')
             .on('jcarouselcontrol:active', function() {
