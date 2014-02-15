@@ -61,6 +61,9 @@
 							<li>main.js</li>
 						</ul>
 					</section>
+					<section>
+						<h2>Example</h2>
+					</section>
 				</section>
 
 				<section>
@@ -81,19 +84,28 @@
   &lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
   &lt;/head&gt;
   &lt;body&gt;
+    &lt;!-- Wrapper --&gt;
     &lt;div class=&quot;wrapper&quot;&gt;
+
       &lt;h1&gt;My Interesting Site About Boats&lt;/h1&gt;
+
     &lt;div class=&quot;jcarousel-wrapper&quot;&gt;
+
+      &lt;!-- div with class of jcarousel --&gt;
     &lt;div class=&quot;jcarousel&quot;&gt;
+      &lt;!-- Put images in unordered list --&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;img src=&quot;images/boat.jpg&quot; width=&quot;600&quot; height=&quot;394&quot;/&gt;&lt;/li&gt;
         &lt;li&gt;&lt;img src=&quot;images/boat2.jpg&quot;width=&quot;600&quot; height=&quot;376&quot;/&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;img src=&quot;images/boat3.jpg&quot; width=&quot;604&quot; height=&quot;730&quot;/&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;img src=&quot;images/boat3.jpg&quot; width=&quot;600&quot; height=&quot;370&quot;/&gt;&lt;/li&gt;
       &lt;/ul&gt;
-    &lt;/div&gt;
+    &lt;/div&gt;      
+                &lt;!-- Photo credits if you want to add them --&gt;
                 &lt;p class=&quot;photo-credits&quot;&gt;
                     Photo credits to me
                 &lt;/p&gt;
+
+                &lt;!-- Next and Prev buttons --&gt;
 
                 &lt;a href=&quot;#&quot; class=&quot;jcarousel-control-prev&quot;&gt;&amp;lsaquo;&lt;/a&gt;
                 &lt;a href=&quot;#&quot; class=&quot;jcarousel-control-next&quot;&gt;&amp;rsaquo;&lt;/a&gt;
@@ -111,53 +123,54 @@
 				<section>
 					<h2>main.js</h2>
 					<pre>
-						<code>
+						<code data-trim contenteditable>
+
 (function($){
 	$(function() {
-   		 $('.jcarousel').jcarousel({
-   		 	wrap: "both"
-   	 });
 
+	//Initialize the JCarousel
+   	$('.jcarousel').jcarousel({
+
+	//Wrap around to first or last list item
+  	wrap:"both"
+   	});
+
+   		 //Previous Button
         $('.jcarousel-control-prev')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
+        	//When clicked, move back 1 list item
             .jcarouselControl({
                 target: '-=1'
             });
 
+          //Next Button
         $('.jcarousel-control-next')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
+        	//When clicked, move forward one list item
             .jcarouselControl({
                 target: '+=1'
             });
 
+          //Pagination
         $('.jcarousel-pagination')
+        	//Which dot gets highlighted
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })
             .on('jcarouselpagination:inactive', 'a', function() {
                 $(this).removeClass('active');
             })
+
             .jcarouselPagination();
     });
  })(jQuery);
+
 						</code>
 					</pre>
 				</section>
 				</section>
-
 				<section>
-					<h2>Finished Product</h2>
+					<h1>The End!</h1>
 				</section>
+
 			</div>
 
 		</div>
