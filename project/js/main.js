@@ -8,4 +8,17 @@ window.onload = function(){
 			ctx.drawImage(img, 0, 0);
 		}
 	}
+
+	$("a.pin").click(function(){
+		//testing the pins
+		//alert($(this).attr("location"));
+
+		//remove the selected class from all other pins yo
+		$("a.pin").removeClass("selected");
+
+		//add selected class to the dot that was clicked
+		$(this).addClass("selected");
+
+
+	});
 }

@@ -107,6 +107,7 @@
 	-moz-border-radius: 10px;
 	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
+	padding:10px;
 }
 
 .map_container a.pin{
