@@ -36,7 +36,6 @@
 	height: 466px;
 }
 
-
 #orderNow{
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -97,6 +96,31 @@
 	padding-left: 100px;
 }
 
+.map_container{
+	background-image: url(../images/templates/map.jpg);
+	height: 520px;
+	background-repeat: no-repeat;
+}
+
+.map_container a.pin{
+	background-image: url(../images/templates/pin_normal.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 18px;
+	width: 15px;
+	display:block;
+	position: absolute;
+	cursor: pointer; 
+}
+
+.map_container a.pin:hover{
+	background-image:url(../images/templates/pin_hover.png); 
+}
+
+.map_container a.pin.selected{
+	background-image: url(../images/templates/pin_selected.png);
+}
+
 .smallIcon{
 	border:3px solid #B2992F;
 	margin-top: 5px;
@@ -134,7 +158,7 @@ ul{
 }
 
 body{
-	background-image: url(../images/old_moon.png);
+	background-image: url(../images/templates/old_moon.png);
 	background-repeat: repeat;
 }
 
