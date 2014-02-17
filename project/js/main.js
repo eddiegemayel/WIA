@@ -19,6 +19,26 @@ window.onload = function(){
 		//add selected class to the dot that was clicked
 		$(this).addClass("selected");
 
+		//create variable to hold path of the matching location div
 
+		var location = ".location_info#" + $(this).attr("location");
+
+		//create variable that will hold html code for it
+
+		var htmlCode = $(location).html();
+
+		//console.log(location);
+
+		//animate container to fade out
+		//put new html code in then fade back in
+
+		$(".detail_container").fadeOut(500, function(){
+			//runs after the container fades out
+			//shove new code in
+			$(".detail_container .location_info").html(htmlCode);
+
+			
+			$(".detail_container").fadeIn(500);
+		});
 	});
 }

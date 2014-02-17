@@ -117,9 +117,13 @@
 	height: 20px;
 	width: 20px;
 	display:block;
-	position: relative;
+	position: absolute;
 	cursor: pointer; 
 }
+
+/*
+When a pin is selected or hovered over, change colors
+*/
 
 .map_container a.pin:hover{
 	background-image:url(../images/templates/pin_hover.png); 
@@ -131,6 +135,9 @@
 
 .location_info_container{display:none;}
 
+.mapError{
+display:none;}
+
 .smallIcon{
 	border:3px solid #B2992F;
 	margin-top: 5px;
@@ -140,6 +147,17 @@
 
 .smallIcon:hover{
 	border:3px solid #993737;
+}
+
+.map_container .detail_container {
+	float:right;
+	width: 380px;
+	height: 425px;
+	border: 3px solid black;
+}
+
+.location_info{
+	padding: 10px;
 }
 /*
 	Natural Selectors ------------------------------------------------------------------
@@ -194,4 +212,9 @@ body{
 	.imageContainer{
 	padding-left: 70px;
 	}
+
+	.map_container{
+		visibility: hidden;
+	}
+	.mapError{visibility: visible;}
 }
