@@ -13,14 +13,13 @@ window.onload = function(){
 		//testing the pins
 		//alert($(this).attr("location"));
 
-		//remove the selected class from all other pins yo
+		//remove the selected class from all other pins
 		$("a.pin").removeClass("selected");
 
 		//add selected class to the dot that was clicked
 		$(this).addClass("selected");
 
 		//create variable to hold path of the matching location div
-
 		var location = ".location_info#" + $(this).attr("location");
 
 		//create variable that will hold html code for it

@@ -108,6 +108,7 @@
 	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
 	padding:10px;
+	visibility: visible;
 }
 
 .map_container a.pin{
@@ -135,8 +136,7 @@ When a pin is selected or hovered over, change colors
 
 .location_info_container{display:none;}
 
-.mapError{
-display:none;}
+.mapError{display:none;}
 
 .smallIcon{
 	border:3px solid #B2992F;
@@ -151,7 +151,7 @@ display:none;}
 
 .map_container .detail_container {
 	float:right;
-	width: 270px;
+	width: 350px;
 	height: 425px;
 	border: 3px solid black;
 }
@@ -216,5 +216,5 @@ body{
 	.map_container{
 		visibility: hidden;
 	}
-	.mapError{visibility: visible;}
+	.mapError{display: block;}
 }
