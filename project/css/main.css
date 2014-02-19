@@ -214,7 +214,7 @@ body{
 	}
 
 	.map_container{
-		visibility: hidden;
+		display:none;
 	}
 	.mapError{display: block;}
 }
