@@ -60,6 +60,15 @@
 	border-radius: 3px;
 }
 
+#orderMap{
+	border: 2px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	top:225px;
+}
+
 /*
 	Classes -----------------------------------------------------------------------
 */
