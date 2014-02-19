@@ -32,7 +32,7 @@
 
 #CTA{
 	margin-top: 10px;
-	background-image: url(../images/CTA_pizza.jpg);
+	background-image: url(../img/CTA_pizza.jpg);
 	height: 466px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .map_container{
-	background-image: url(../images/templates/map.jpg);
+	background-image: url(../img/templates/map.jpg);
 	height: 442px;
 	background-repeat: no-repeat;
 	border-left: 1px solid #B2992F;
@@ -112,7 +112,7 @@
 }
 
 .map_container a.pin{
-	background-image: url(../images/templates/pin_normal.png);
+	background-image: url(../img/templates/pin_normal.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	height: 20px;
@@ -127,11 +127,11 @@ When a pin is selected or hovered over, change colors
 */
 
 .map_container a.pin:hover{
-	background-image:url(../images/templates/pin_hover.png); 
+	background-image:url(../img/templates/pin_hover.png); 
 }
 
 .map_container a.pin.selected{
-	background-image: url(../images/templates/pin_selected.png);
+	background-image: url(../img/templates/pin_selected.png);
 }
 
 .location_info_container{display:none;}
@@ -186,7 +186,7 @@ ul{
 }
 
 body{
-	background-image: url(../images/templates/old_moon.png);
+	background-image: url(../img/templates/old_moon.png);
 	background-repeat: repeat;
 }
 
@@ -195,7 +195,7 @@ body{
 */
 @media only screen and (max-device-width: 500px){
 	#CTA{
-		background-image: url(../images/CTA_pizza_small.jpg);
+		background-image: url(../img/CTA_pizza_small.jpg);
 		background-repeat: no-repeat;
 		height: 466px;
 	}
