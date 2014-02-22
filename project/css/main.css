@@ -145,6 +145,7 @@ When a pin is selected or hovered over, change colors
 
 .location_info_container{display:none;}
 
+/*Error hidden*/
 .mapError{display:none;}
 
 .smallIcon{
@@ -167,6 +168,18 @@ When a pin is selected or hovered over, change colors
 
 .location_info{
 	padding: 10px;
+}
+
+.gallery{
+	border-left: 1px solid #B2992F;
+	border-top: 1px solid #B2992F;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #dbdbdb;
+	box-shadow: 3px 3px 3px #545252;
+	height: 442px;
+	padding:10px;
 }
 /*
 	Natural Selectors ------------------------------------------------------------------
