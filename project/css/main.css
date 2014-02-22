@@ -186,6 +186,7 @@ When a pin is selected or hovered over, change colors
 	position: absolute;
 	left: 100px;
 	top: 120px;
+	overflow: hidden;
 }
 
 .nutrition{
@@ -198,6 +199,7 @@ When a pin is selected or hovered over, change colors
 	box-shadow: 3px 3px 3px #545252;
 	height: 442px;
 	padding:10px;
+	overflow: hidden;
 }
 
 .nutritionContainer{
