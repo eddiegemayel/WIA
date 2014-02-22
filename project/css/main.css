@@ -181,6 +181,29 @@ When a pin is selected or hovered over, change colors
 	height: 442px;
 	padding:10px;
 }
+
+.images{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.nutrition{
+	border-left: 1px solid #B2992F;
+	border-top: 1px solid #B2992F;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #dbdbdb;
+	box-shadow: 3px 3px 3px #545252;
+	height: 442px;
+	padding:10px;
+}
+
+.nutritionContainer{
+	height: 210px;
+	word-spacing: 
+}
 /*
 	Natural Selectors ------------------------------------------------------------------
 */
