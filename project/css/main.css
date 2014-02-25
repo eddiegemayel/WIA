@@ -206,6 +206,19 @@ When a pin is selected or hovered over, change colors
 	height: 210px;
 	word-spacing: 
 }
+
+.video_container{
+	border-left: 1px solid #B2992F;
+	border-top: 1px solid #B2992F;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #dbdbdb;
+	box-shadow: 3px 3px 3px #545252;
+	height: 442px;
+	width:790px;
+	padding:10px;
+}
 /*
 	Natural Selectors ------------------------------------------------------------------
 */
