@@ -219,6 +219,8 @@ When a pin is selected or hovered over, change colors
 	width:790px;
 	padding:10px;
 }
+/*Video Error Message*/
+.videoError{display: none;}
 /*
 	Natural Selectors ------------------------------------------------------------------
 */
@@ -265,16 +267,15 @@ body{
 		border: 1px solid #B2992F;
 	}
 
-	#header{
-		box-shadow: none;
-	}
+	#header{box-shadow: none;}
 
-	.imageContainer{
-	padding-left: 70px;
-	}
+	.imageContainer{padding-left: 70px;}
 
-	.map_container{
-		display:none;
-	}
+	.map_container{display:none;}
+
 	.mapError{display: block;}
+
+	.video_container{display:none;}
+
+	.videoError{display:block;}
 }
