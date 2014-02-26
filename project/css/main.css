@@ -171,9 +171,12 @@ When a pin is selected or hovered over, change colors
 	padding: 10px;
 }
 
-/*.location_photo{
-	float:right;
-}*/
+.location_photo{
+	border: 2px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
 
 .gallery{
 	border-left: 1px solid #B2992F;
