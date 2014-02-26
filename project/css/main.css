@@ -170,6 +170,10 @@ When a pin is selected or hovered over, change colors
 	padding: 10px;
 }
 
+/*.location_photo{
+	float:right;
+}*/
+
 .gallery{
 	border-left: 1px solid #B2992F;
 	border-top: 1px solid #B2992F;
@@ -215,9 +219,10 @@ When a pin is selected or hovered over, change colors
 	-moz-border-radius: 10px;
 	background-color: #dbdbdb;
 	box-shadow: 3px 3px 3px #545252;
-	height: 442px;
+	height: 435px;
 	width:790px;
 	padding:10px;
+	padding-top:15px; 
 }
 /*Video Error Message*/
 .videoError{display: none;}
