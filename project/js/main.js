@@ -53,4 +53,8 @@ window.onload = function(){
 			$(".detail_container").fadeIn(500);
 		});
 	});
+
+	$("#toggle").click(function(){
+		$(".nutritionContainer").toggle("slow");
+	});
 }

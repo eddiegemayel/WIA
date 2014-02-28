@@ -70,6 +70,14 @@
 	right: 123px;
 }
 
+#toggle{
+	float:right;
+}
+
+.nutritionContainer{
+	height: 210px;
+	word-spacing: 
+}
 /*
 	Classes -----------------------------------------------------------------------
 */
@@ -208,11 +216,6 @@ When a pin is selected or hovered over, change colors
 	height: 442px;
 	padding:10px;
 	overflow: hidden;
-}
-
-.nutritionContainer{
-	height: 210px;
-	word-spacing: 
 }
 
 .video_container{
