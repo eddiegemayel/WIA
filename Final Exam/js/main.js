@@ -1053,18 +1053,17 @@ google.load("visualization", 1, {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
 
 function drawChart(){
-	//create data table for this worthless bullshit
+	//create data table
 	var data = google.visualization.arrayToDataTable([ 
 		["Task", "Hours Per Day"],
-		["yes", 8],
-		["Eat", 2],
-		["Commute" , 2],
-		["Watch Tv", 2],
-		["School", 7]
+		["Beer", 48],
+		["Wine", 20],
+		["Liquor" , 26],
+		["N/A", 6]
 		]);
 
 	var options = {
-		title: "My Daily Activites",
+		title: "Male Alcohol Use",
 		is3D:true
 	};
 
