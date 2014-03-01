@@ -13,3 +13,73 @@
 #canvas{
 	border: 1px solid black;
 }
+
+
+div#men{
+            position: relative;
+            width:46px;
+            height:46px;
+            background-color: #6DB3F2;
+            background-image: url(../images/beer.png);
+            background-repeat: repeat;
+            display: inline-block;
+        }
+
+        div#women{
+            position: relative;
+            width:46px;
+            height:46px;
+            background-color: #d82ad8;
+            background-image: url(../images/malt.png);
+            background-repeat: repeat;
+            display: inline-block;
+        }
+
+        .menLabel{
+            background-color: #6DB3F2;
+            display: inline-block;
+            padding: 8px;
+            vertical-align: top;
+            font-size: 25pt;
+            color: #fff;
+        }
+
+        .womenLabel{
+            background-color: #d82ad8;
+            display: inline-block;
+            padding: 8px;
+            vertical-align: top;
+            font-size: 25pt;
+            color: #fff;
+        }
+
+        p, span {
+            font-size: 16pt;
+        }
+        button {
+            margin: 5px;
+        }
+
+.container{
+	position: absolute;
+	left: 500px;
+	top:350px;
+	border: 1px solid #888;
+	padding: 8px;
+}
+
+.animatedChartExplained{
+	position: absolute;
+	left: 500px;
+	top: 750px;
+	border: 1px solid black;
+	padding: 8px;
+	background-color: #888;
+	margin-bottom: 10px;
+}
+
+#toggle{
+	position: absolute;
+	top:660px;
+	right: 480px;
+}

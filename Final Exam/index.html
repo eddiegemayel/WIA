@@ -7,9 +7,39 @@
 		<link rel="stylesheet" href="css/main.css"/>
 	</head>
 	<body>
+		<!-- Pie charts -->
 		<canvas id="canvas" height="200" width="300">Your Browser Doesn't Support Canvas.</canvas>
 		<div id="piechart"></div>
 		<div id="piechart2"></div>
+
+
+		<!-- Animated chart -->
+<div class="container">
+		<h2>Men vs Women Binge Drinking</h2> 
+    <button id="moveIt">Show</button>
+    <button id="hide">Hide</button>
+   <p>Men</p>
+   <div id="men">
+   </div>
+   <div id="menNumber" class="menLabel">5+ drinks in 2 hours
+   </div>
+
+   <br/>
+
+   <p>Women</p>
+   <div id="women">
+   </div>
+   <div id="womenNumber" class="womenLabel">4+ drinks in 2 hours
+   </div>
+</div>
+
+<button id="toggle">Explanation</button>
+<div class="animatedChartExplained" style="display:none; width: 400px;">
+	<h2>Men vs Women Binge Drinking Explained</h2>
+	<p>For men, it is considered binge drinking if you have 5 or more drinks within a 2 hour time frame.
+	On the other hand, for women, it counts as binge drinking if you only have 4 or more drinks within a 2 hour time frame. The more you know!</p>
+</div>
+
 		<script src="js/main.js"></script>
 	</body>
 </html>

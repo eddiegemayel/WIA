@@ -1046,7 +1046,7 @@ else{
 
 
 
-//Google piechart
+/////////////////////////////////////////////////////////////////////////Google piechart
 google.load("visualization", 1, {packages:["corechart"]});
 
 //onces its loaded, run the function
@@ -1064,7 +1064,7 @@ function drawChart(){
 		]);
 
 	var options = {
-		title: "Male Alcohol Use",
+		title: "MALE Alcohol Use",
 		is3D:true
 	};
 
@@ -1085,7 +1085,7 @@ function drawChart2(){
 		]);
 
 	var options = {
-		title: "Female Alcohol Use",
+		title: "FEMALE Alcohol Use",
 		is3D:true
 	};
 
@@ -1094,3 +1094,42 @@ function drawChart2(){
 	//draw the chart
 	chart.draw(data, options);
 }
+
+
+
+
+
+
+///////////////////////////////////////////////////////////animation chart
+	$("#menNumber").hide();
+	$("#womenNumber").hide();
+
+
+
+	$("#moveIt").click(function(){
+		//animate inside of here
+		$("#men").animate({width:"220px"}, 1000);
+		$("#menNumber").slideDown(1000);
+
+		$("#women").animate({width:"190px"},1000);
+		$("#womenNumber").slideDown(1000);
+
+	});
+
+	$("#hide").click(function(){
+		
+
+		$("#men").animate({width:"46px"}, 1000);
+		$("#menNumber").slideDown(1000);
+
+		$("#women").animate({width:"46px"},1000);
+		$("#womenNumber").slideDown(1000);
+
+	});
+
+
+//Explanation divs
+
+$("#toggle").click(function(){
+		$(".animatedChartExplained").toggle("slow");
+	});
