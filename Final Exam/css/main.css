@@ -70,16 +70,38 @@ div#men{
 
 .animatedChartExplained{
 	position: absolute;
-	left: 500px;
-	top: 750px;
-	border: 1px solid black;
+	left: 900px;
+	top: 400px;
+	border: 3px solid #888;
 	padding: 8px;
-	background-color: #888;
+	background-color: #2E97C6;
 	margin-bottom: 10px;
 }
 
 #toggle{
 	position: absolute;
-	top:660px;
-	right: 480px;
+	top:720px;
+	right: 670px;
+}
+
+#toggle2{
+	position: absolute;
+	top:400px;
+	left:50px;
+}
+
+.pieChartExplained{
+	/*position: absolute;
+	left: 500px;
+	top: 750px;*/
+	border: 3px solid #888;
+	padding: 8px;
+	background-color: #2E97C6;
+}
+
+.button{
+	border: 2px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }

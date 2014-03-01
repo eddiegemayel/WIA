@@ -1133,3 +1133,7 @@ function drawChart2(){
 $("#toggle").click(function(){
 		$(".animatedChartExplained").toggle("slow");
 	});
+
+$("#toggle2").click(function(){
+		$(".pieChartExplained").toggle("slow");
+	});
