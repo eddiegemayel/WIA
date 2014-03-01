@@ -1,7 +1,13 @@
 #piechart{
-	width: 900px; 
+	width: 500px; 
 	height: 500px;
 	float: right;
+}
+
+#piechart2{
+	float:left;
+	width: 500px; 
+	height: 500px;
 }
 
 #canvas{

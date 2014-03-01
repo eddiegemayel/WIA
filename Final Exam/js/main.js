@@ -1051,11 +1051,12 @@ google.load("visualization", 1, {packages:["corechart"]});
 
 //onces its loaded, run the function
 google.setOnLoadCallback(drawChart);
+google.setOnLoadCallback(drawChart2);
 
 function drawChart(){
 	//create data table
 	var data = google.visualization.arrayToDataTable([ 
-		["Task", "Hours Per Day"],
+		["Males", "Alcohol use"],
 		["Beer", 48],
 		["Wine", 20],
 		["Liquor" , 26],
@@ -1068,6 +1069,27 @@ function drawChart(){
 	};
 
 	var chart = new google.visualization.PieChart(document.getElementById("piechart"));
+
+	//draw the chart
+	chart.draw(data, options);
+}
+
+function drawChart2(){
+	//create data table
+	var data = google.visualization.arrayToDataTable([ 
+		["Females", "Alcohol use"],
+		["Beer", 22],
+		["Wine", 51],
+		["Liquor" , 21],
+		["N/A", 6]
+		]);
+
+	var options = {
+		title: "Female Alcohol Use",
+		is3D:true
+	};
+
+	var chart = new google.visualization.PieChart(document.getElementById("piechart2"));
 
 	//draw the chart
 	chart.draw(data, options);
