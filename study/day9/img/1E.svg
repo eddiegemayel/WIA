@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<!-- Path Drawing 
+	M = moveto
+	L = lineto
+	H = horizontal lineto
+	V = vertical lineto
+	C = curveto
+	s = smooth curveto
+	q = quadratic bezier curve
+	t = smooth quadratic bezier curve
+	a = elliptical arc
+	z = closepath
+
+	Capital Letters = absoulte positioning
+	lowercase letters = relative positioning
+-->
+	<path
+		d="M125 0 L50 100 L200 100 Z"
+		style="fill:red; stroke:black; stroke-width:4;"
+	/>
+
+	<path
+		d="M100 350 Q 250 50 400 350"
+		stroke="blue"
+		stroke-width="5"
+		fill="none"
+	/>
+
+</svg>    
